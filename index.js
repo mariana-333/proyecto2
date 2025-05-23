@@ -5,7 +5,7 @@ const bodyParser = require('body-parser')
 const { movimientosCaballo, movimientosAlfil, movimientosTorre, movimientosReina, movimientosRey, movimientosPeon } = require('./chess');
 
 const app = express()
-const port = 3000
+const port = 80
 const usuarios = []
 
 // VARIABLES DE ESTADO DEL JUEGO
