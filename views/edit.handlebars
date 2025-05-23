@@ -1,0 +1,38 @@
+<main>
+      <form class="formulary margin" action="/profile" method="post" enctype="multipart/form-data">
+        <fieldset>
+          <legend>Editar datos</legend>
+          <div class="fieldset">
+            <label>Nombres</label>
+            <input name="nombres" class="input-text" type="text" value="Nombres" readonly>
+          </div>
+          <div class="fieldset">
+            <label>Apellidos</label>
+            <input name="apellidos" class="input-text" type="text" value="Apellidos" readonly>
+          </div>
+          <div class="fieldset">
+            <label>Fecha de nacimiento</label>
+            <input name="date" class="input-text" type="date" value="DD/MM/AAAA" readonly>
+          </div>
+          <div class="fieldset">
+            <label>Nombre de usuario</label>
+            <input name="username" class="input-text" type="text" value="usuario" readonly>
+          </div>
+          <div class="fieldset">
+            <label for="profilepicture">Foto de perfil</label>
+            <input name="profilepicture" type="file" id="profilepicture" accept="image/*">
+          </div>
+          <div class="fieldset">
+            <label>Correo electrónico</label>
+            <input name="email" class="input-text" type="email" value="correo@ejemplo.com" readonly>
+          </div>
+          <div class="fieldset">
+            <label>Contraseña</label>
+            <input name="password" class="input-text" type="password" value="Contraseña" readonly required>
+          </div>
+          <div class="submit w-100 align-right flex">
+            <input name="submit w-100 align-right flex" class="button" type="submit" value="Guardar datos">
+          </div>
+        </fieldset>
+      </form>
+    </main>
